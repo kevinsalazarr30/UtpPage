@@ -1,0 +1,116 @@
+body,html{
+    margin:0px;
+    background: #eeeeee;
+}
+
+header{
+	height: 35vh;
+	width: 100%;
+	background-image: url('../img/1.jpg');
+	background-color: rgb(100,100,100);
+	background-blend-mode: soft-light;
+	color:white;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	flex-direction: column;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.precio{
+    top: -143px;
+    position: relative;
+    left: -63px;
+    font-size: 18px;
+    color: #ebecec;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+/*  Card Principal */
+.card{
+    height: 26vh;
+    width: 23%;
+    background-color: rgba(97, 95, 95, 0.73);
+    background-blend-mode: soft-light;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    margin-top: 35px;
+    float: left;
+    /* text-align: center; */
+    margin-left: 18px;
+    border-radius: 8%;
+}
+/* Card Categorias */
+.card1{
+    background-image: url(../img/criollos.png);
+}
+.card2{
+    background-image: url(../img/marinos.jpg);
+}
+.card3{
+    background-image: url(../img/selva.jpg);
+}
+.card4{
+    background-image: url(../img/noteno.jpg);
+}
+.card h1{
+    font-size: 17px;
+}
+/*  */
+/* Contenido de detalle */
+.titulo{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 17px !important;
+    font: menu;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #4c0a03;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.volver{
+    position: absolute;
+    top: 37%;
+    left: 3%;
+    font-size: 19px;
+    text-decoration: underline;
+    color: #1e3b6b;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* Loader estilos */
+.loader{
+    position: absolute;
+    display: inline-block;
+    top: 40%;
+    left: 45%;
+  }
+  .loader:after {
+    content: " ";
+    display: block;
+    width: 146px;
+    height: 146px;
+    margin: 1px;
+    border-radius: 50%;
+    border: 16px solid #9b4c4b;
+    border-color: #9b4c4b transparent #9b4c4b transparent;
+    animation: loader 1.2s linear infinite;
+  }
+  @keyframes loader {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  /*  */
+/*

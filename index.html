@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Restaurante</title>
+</head>
+
+<body>
+    <div class="loader" id="loader" style="display: none"></div>
+
+    <header id="headerHome">
+        <br>
+        <img src="img/avatar.png" class="avatar">
+        <h1>Mi Restaurante</h1>
+    </header>
+
+    <div id="contentCategorias">
+        <div class="card card1" onclick="mostrar(1)">
+            <h1>Platos Criollos</h1>
+            <!-- <img src="img/criollos.png" alt=""> -->
+        </div>
+        <div class="card card2" onclick="mostrar(2)">
+            <h1>Platos Marinos</h1>
+
+            <!-- <img src="img/criollos.png" alt=""> -->
+        </div>
+        <div class="card card3" onclick="mostrar(3)">
+            <h1>Platos de la Selva</h1>
+
+            <!-- <img src="img/criollos.png" alt=""> -->
+        </div>
+        <div class="card card4" onclick="mostrar(4)">
+            <h1>Platos Nortenos</h1>
+            <!-- <img src="img/criollos.png" alt=""> -->
+        </div>
+    </div>
+
+
+    <div id="contentDetalle" style="display: none">
+        <h1 id="tituloDetalle" class="titulo"></h1>
+        <p class="volver" onclick="volver()">Volver . . </p>
+        <div id="contentCards">
+
+        </div>
+        <!-- <div class="card card1">
+            <h1>Aji de Gallina</h1>
+        </div>
+        <div class="card card2">
+            <h1>Arroz con Pollo</h1>
+
+        </div>
+        <div class="card card3">
+            <h1>Frejoles con Seco a la nortena</h1>
+
+        </div>
+        <div class="card card4">
+            <h1>Lomo saltado</h1>
+        </div> -->
+
+    </div>
+
+
+    <div class="footer"></div>
+</body>
+<script>
+
+</script>
+<script src="./js/funciones.js"></script>
+
+</html>
